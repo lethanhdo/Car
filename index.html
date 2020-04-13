@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarNews</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS3 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <!-- Fontawesome -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+
+<body>
+    <!-- navbars -->
+    <section class="nav">
+        <nav id="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label id="logo" class="logo">CarNews</label>
+            <ul id="ul-nav">
+                <li><a class="active" href="#">Trang chủ</a></li>
+                <li><a class="nav-a" href="#about">Sản phẩm</a></li>
+                <li><a class="nav-a" href="#services">Tin tức</a></li>
+                <li><a class="nav-a scrollLink" href="#blog">Đánh giá</a></li>
+                <li><a class="nav-a" href="#contact">Sự kiện</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- intro -->
+    <section class="intro">
+        <div class="intro">
+            <div class="intro-overlay">
+            </div>
+            <div class="intro-contain">
+                <!-- <div class="table-cell"> -->
+                    <div class="container">
+                        <h2 class="intro-tittle">ES Sedan</h1>
+                        <h1 class="intro-tittle">CHUYỂN ĐỘNG
+                            ĐẦY THANH LỊCH</h1>
+                        <p class="intro-job">Từ 2.540.000.000 VNĐ</p>
+                    </div>
+                <!-- </div> -->
+            </div>
+            <!-- <video src="/img/videobg.mp4" autoplay loop width=100%></video> -->
+
+        </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section id="featured" class="featured">
+        <div class="container row">
+            <div class="col-12 container-tittle">
+                <div class="container-tittle-left">
+                    <h3>NỔI BẬT</h3>
+                </div>
+                <div class="container-tittle-right">
+                    <a href="#">Tất cả</a>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Tin tức</a>
+                </div>
+            </div>
+            <a href="#" class="col-12 col-md-8 container-left">
+                <div >
+                    <div class="content">
+                        <div class="type">
+                            <div class="type-text">
+                                <span>BÀI VIẾT</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="overlay"></div>
+                            <div class="box-tittle"><span>Le Thanh DO</span></div>
+                            <div class="box-views">
+                                <div class="box-views-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>Thứ ba, 26/03/2020</span>
+                                </div>
+                                <div class="box-views-number">
+                                    <div class="box-views-number-comments">
+                                        <i class="far fa-comment-alt-lines"></i>
+                                        <span>14</span>
+                                    </div>
+                                    <div class="box-views-number-views">
+                                        <i class="far fa-eye"></i>
+                                        <span>36</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </a>
+            <div class="col-12 col-md-4 container-right">
+                <div class="row">
+                    <div class="col-6 box-img">
+                        <div class=" img img-1">
+                            <div class="img-text">
+                                <span>Đây là siêu xe mua ngay kẻo hết mất</span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-6 box-img">
+                        <div class=" img img-1">
+                            <div class="img-text">
+                                <span>Đây là siêu xe mua ngay kẻo hết mất</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 box-img">
+                        <div class=" img img-1">
+                            <div class="img-text">
+                                <span>Đây là siêu xe mua ngay kẻo hết mất</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 box-img">
+                        <div class=" img img-1">
+                            <div class="img-text">
+                                <span>Đây là siêu xe mua ngay kẻo hết mất</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENT NEWS -->
+    <section id="recent-news" class="recent-news">
+        <div class="container row">
+            <div class="col-12 col-md-8 container-left">
+                <div class="tittle">
+                    <h3>TIN MỚI</h3>
+                </div>
+                <div class="content">
+                    <a href="#" class="box">
+                        <div class="img"></div>
+                        <div class="description">
+                            <div class="tittle-description">
+                                <h4>Giám đốc Lê Thành Đô bị đuổi việc</h4>
+                            </div>
+                            <div class="view">
+                                <div class="interview">
+                                    <span>interview</span>
+                                </div>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>26/03/2020</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="far fa-comment-alt-lines"></i>
+                                    <span>14</span>
+                                </div>
+                                <div class="views">
+                                    <i class="far fa-eye"></i>
+                                    <span>36</span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <span>Chính thức đuổi việc giám đốc Lê Thành Đô
+                                    vì không chịu mua ô tô...
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                    <a href="#" class="box">
+                        <div class="img"></div>
+                        <div class="description">
+                            <div class="tittle-description">
+                                <h4>Giám đốc Lê Thành Đô bị đuổi việc</h4>
+                            </div>
+                            <div class="view">
+                                <div class="interview">
+                                    <span>interview</span>
+                                </div>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>26/03/2020</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="far fa-comment-alt-lines"></i>
+                                    <span>14</span>
+                                </div>
+                                <div class="views">
+                                    <i class="far fa-eye"></i>
+                                    <span>36</span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <span>Chính thức đuổi việc giám đốc Lê Thành Đô
+                                    vì không chịu mua ô tô...
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                    <a href="#" class="box">
+                        <div class="img"></div>
+                        <div class="description">
+                            <div class="tittle-description">
+                                <h4>Giám đốc Lê Thành Đô bị đuổi việc</h4>
+                            </div>
+                            <div class="view">
+                                <div class="interview">
+                                    <span>interview</span>
+                                </div>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>26/03/2020</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="far fa-comment-alt-lines"></i>
+                                    <span>14</span>
+                                </div>
+                                <div class="views">
+                                    <i class="far fa-eye"></i>
+                                    <span>36</span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <span>Chính thức đuổi việc giám đốc Lê Thành Đô
+                                    vì không chịu mua ô tô...
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                    <a href="#" class="box">
+                        <div class="img"></div>
+                        <div class="description">
+                            <div class="tittle-description">
+                                <h4>Giám đốc Lê Thành Đô bị đuổi việc</h4>
+                            </div>
+                            <div class="view">
+                                <div class="interview">
+                                    <span>interview</span>
+                                </div>
+                                <div class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span>26/03/2020</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="far fa-comment-alt-lines"></i>
+                                    <span>14</span>
+                                </div>
+                                <div class="views">
+                                    <i class="far fa-eye"></i>
+                                    <span>36</span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <span>Chính thức đuổi việc giám đốc Lê Thành Đô
+                                    vì không chịu mua ô tô...
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 container-right">
+                <div class="box">
+                    <div class="tittle">
+                        <span>Liên lạc</span>
+                    </div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="#" class="fb">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>1,203</span>
+                                    <span>Fans</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="gmail">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>1,203</span>
+                                    <span>Fans</span>
+                                </a>
+                            </div>
+                            <div class="col-4" class="youtube">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>1,203</span>
+                                    <span>Fans</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENT VIDEOS -->
+    <section class="recent-videos">
+        <div class="overlay">
+        </div>
+        <div class="container row">
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>45</p>
+                        <span>WORKS COMPLETED</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>2</p>
+                        <span>YEARS OF EXPERIENCE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>150</p>
+                        <span>TOTAL CLIENTS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>4</p>
+                        <span>AWARD WON</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUTOMOTIVE EVENTS -->
+    <section class="events">
+        <div class="container">
+            <div class="tittle">
+                <h3>Portfolio</h3>
+                <p> The application of systematic management to the investments, projects and activities of enterprise Information Technology (IT) departments.
+                </p>
+                <div class="highline"></div>
+            </div>
+            <div class="contain row">
+                <div class="col-12 col-md-4">
+                    <a href="https://lethanhdo.github.io/Website-DHVHHN/" target="_blank">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img ">
+                                <div class="portfolio-img1 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Hanoi University Of Culture</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://lethanhdo.github.io/WebsiteLichSuVN/" target="_blank">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img2 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">History of Vietnam</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://lethanhdo.github.io/ConDaoPrison/" target="_blank">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img3 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Con Dao Prison</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">12 Sep. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://lethanhdo.github.io/YogaDaily/" target="_blank">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img4 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Daily Yoga</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://lethanhdo.github.io/HouseCode/" target="_blank">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img5 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Learn Code Website</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img6 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Clothes Shop</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- POPULAR -->
+    <section class="popular">
+            <div class="for-slick-slider multiple-items">
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">                    
+                    <div class="overlay"></div>
+
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div> 
+                </div>
+            </div>
+    </section>
+
+    <!-- blog -->
+    <!-- <section id="blog" class="blog">
+        <div class="container">
+            <div class="tittle">
+                <h3>Blog</h3>
+                <p>Over the last 3 years I’ve written 114 articles on this site about software development, management, business, and the Internet. <br> To make it easy to find the best ones, here are some reading lists, sorted by topic.
+                </p>
+                <div class="highline"></div>
+            </div>
+            <div class="contain row">
+                <div class="col-12 col-md-4">
+                    <div class="blog-box">
+                        <a href="https://www.joelonsoftware.com/2019/12/05/so-hows-that-retirement-thing-going-anyway/" target="_blank">
+                            <div class="blog-img">
+                                <img src="img/blog1.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <div class="blog-content">
+                            <div class="blog-category-tittle">
+                                <a href="https://www.joelonsoftware.com/2019/12/05/so-hows-that-retirement-thing-going-anyway/" target="_blank">
+                                    <h3>So, how’s that retirement thing going, anyway?</h3>
+                                </a>
+                            </div>
+                            <div class="blog-category-description">
+                                <p>For the last couple of months, Prashanth Chandrasekar 
+                                    has been getting settled in as the new CEO of Stack Overflow. 
+                                    I’m still going on some customer calls and have a weekly meeting 
+                                    with him, but I have freed up a lot of time. I’m also really 
+                                    enjoying discovering just how little I knew about running
+                                     medium-sized companies, as I watch Prashanth rearrange
+                                      everything—for the better. It’s really satisfying to realize
+                                       that the best possible outcome for me is if he proves what
+                                        a bad CEO I was by doing a much better job running the company.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog-category-footer">
+                            <a href="#">
+                                <div class="author">
+                                    <div class="author-img">
+                                        <img src="img/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="author-name">
+                                        <span>Thanh Do</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="date">
+                                <div class="date-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="date-time">
+                                    <p>DECEMBER 5, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="blog-box">
+                        <a href="https://www.joelonsoftware.com/2000/04/10/controlling-your-environment-makes-you-happy/" target="_blank">
+                            <div class="blog-img">
+                                <img src="img/blog2.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <div class="blog-content">
+                            <div class="blog-category-tittle">
+                                <a href="https://www.joelonsoftware.com/2000/04/10/controlling-your-environment-makes-you-happy/" target="_blank">
+                                    <h3>The Joel Test: 12 Steps to Better Code</h3>
+                                </a>
+                            </div>
+                            <div class="blog-category-description">
+                                <p>Have you ever heard of SEMA? It’s a fairly esoteric system
+                                     for measuring how good a software team is. No, wait!
+                                      Don’t follow that link! It will take you about six years
+                                       just to understand that stuff. So I’ve come up with my own,
+                                        highly irresponsible, sloppy test to rate the quality of a software team.
+                                         The great part about it is that it takes about 3 minutes.
+                                          With all the time you save, you can go to medical school.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog-category-footer">
+                            <a href="#">
+                                <div class="author">
+                                    <div class="author-img">
+                                        <img src="img/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="author-name">
+                                        <span>Thanh Do</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="date">
+                                <div class="date-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="date-time">
+                                    <p>AUGUST 9, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="blog-box">
+                        <a href="https://www.joelonsoftware.com/2005/01/02/advice-for-computer-science-college-students/" target="_blank">
+                            <div class="blog-img">
+                                <img src="img/blog3.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <div class="blog-content">
+                            <div class="blog-category-tittle">
+                                <a href="https://www.joelonsoftware.com/2005/01/02/advice-for-computer-science-college-students/" target="_blank">
+                                    <h3>Advice for Computer Science College Students</h3>
+                                </a>
+                            </div>
+                            <div class="blog-category-description">
+                                <p>Despite the fact that it was only a year or two ago that
+                                     I was blubbering about how rich Windows GUI clients were
+                                      the wave of the future, college students nonetheless do
+                                       occasionally email me asking for career advice, and since
+                                        it’s recruiting season, I thought I’d write up my standard 
+                                        advice which they can read, laugh at, and ignore.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog-category-footer">
+                            <a href="#">
+                                <div class="author">
+                                    <div class="author-img">
+                                        <img src="img/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="author-name">
+                                        <span>Thanh Do</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="date">
+                                <div class="date-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="date-time">
+                                    <p>JANUARY 2, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="container row">
+            <div class="col-12 col-md-6 container-left">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Send Messege Us</h2>
+                <div class="highline"></div>
+                <div class="row">
+                    <div class="col-md-12 mb-md-0 mb-12">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-12 form-input">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control"
+                                            placeholder="Your name">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 form-input">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control"
+                                            placeholder="Your email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-input">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control"
+                                            placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-input">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea" placeholder="Your message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="text-center text-md-left form-input">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send
+                                Messege</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 container-right">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Get In Touch</h2>
+                <div class="highline"></div>
+                <p class="lead">Do you have any questions? Please do not hesitate
+                    to contact us directly. Our team will come back to you within
+                    a matter of hours to help you.
+                </p>
+                <div class="col-md-12 text-center">
+                    <ul class="">
+                        <li class="d-flex"><i class="fas fa-map-marker-alt fa"></i>
+                            <p>155 Tho An, Dan Phuong, Ha Noi</p>
+                        </li>
+
+                        <li class="d-flex"><i class="fas fa-phone  fa"></i>
+                            <p>+ 03 892 016 16</p>
+                        </li>
+
+                        <li class="d-flex"><i class="fas fa-envelope  fa"></i>
+                            <p>thanhdochita@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/lethanhdo19" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/thanhdo.cooler/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <i class="fab fa-twitter"></i>
+
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.pinterest.com/" target="_blank">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">© Copyright <strong>DevCooler</strong>. All Rights Reserved</p>
+                        <div class="creadit">
+                            Design by <a href="#">Bootstrap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- btn-scroll-top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-arrow-to-top"></i>
+    </button>
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
